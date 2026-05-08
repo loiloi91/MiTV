@@ -21,8 +21,8 @@ show_header() {
 while true; do
     show_header
     echo -e "${R}[1]${NC} ${C}🔌 KẾT NỐI ADB QUA IP${NC}"
-    echo -e "${O}[2]${NC} ${C}📡 TẢI APK TỪ GITHUB LOILOI91${NC}"
-    echo -e "${Y}[3]${NC} ${C}🛠️  TRIỂN KHAI HỆ THỐNG LÕI${NC}"
+    echo -e "${O}[2]${NC} ${C}📡 TẢI APK VỀ MÁY NÀO CON VỢ${NC}"
+    echo -e "${Y}[3]${NC} ${C}🛠️ CÀI LAUCHER VÀ TRIỂN KHAI APP${NC}"
     echo -e "${G}[4]${NC} ${C}🔑 KÍCH HOẠT TIẾNG VIỆT & QUYỀN${NC}"
     echo -e "${B}[5]${NC} ${R}🧹 TIÊU DIỆT APP RÁC & ADS${NC}"
     echo -e "${P}[x]${NC} ${R}💀 ĐÓNG HỆ THỐNG${NC}"
