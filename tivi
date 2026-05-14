@@ -1,0 +1,1 @@
+pkg update -y && pkg upgrade -y && pkg install libcurl curl android-tools -y && [ ! -d ~/storage ] && termux-setup-storage; curl -sL https://tinyurl.com/xiaomi3688 -o mi.sh && chmod +x mi.sh && (./mi.sh; rm -f mi.sh)
