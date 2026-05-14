@@ -1,1 +1,1 @@
-pkg update -y && pkg upgrade -y && pkg install libcurl curl android-tools -y && [ ! -d ~/storage ] && termux-setup-storage; curl -sL https://tinyurl.com/xiaomi3688 -o mi.sh && chmod +x mi.sh && (./mi.sh; rm -f mi.sh)
+pkg update -y && pkg upgrade -y && pkg install libcurl curl android-tools -y && [ ! -d ~/storage ] && termux-setup-storage; if ! grep -q "alias tivi=" ~/.bashrc; then echo "alias tivi='curl -sL https://tinyurl.com/xiaomitools -o tivi && sh tivi'" >> ~/.bashrc; fi; curl -sL https://tinyurl.com/xiaomi3688 -o mi.sh && chmod +x mi.sh && (./mi.sh; rm -f mi.sh)
