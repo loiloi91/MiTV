@@ -1,1 +1,1 @@
-pkg update && pkg upgrade -y && pkg install android-tools curl -y && curl -sL https://tinyurl.com/Iphone3688 -o RunIOS.sh && sh RunIOS.sh && rm RunIOS.sh
+pkg update && pkg install android-tools curl -y && curl -sL https://tinyurl.com/Iphone3688 | sh
